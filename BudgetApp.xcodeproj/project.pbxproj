@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112ABC6D1B2B666300F3104C /* SpendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112ABC6C1B2B666300F3104C /* SpendingTableViewCell.swift */; };
+		11421F0F1B2B814600DC53F3 /* AddSpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11421F0E1B2B814600DC53F3 /* AddSpendingViewController.swift */; };
+		11421F111B2C48B700DC53F3 /* ICViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11421F101B2C48B700DC53F3 /* ICViewController.swift */; };
+		11421F131B2C511C00DC53F3 /* ICTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11421F121B2C511C00DC53F3 /* ICTableViewCell.swift */; };
 		117B9ADA1B18CF88001D512F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9AD91B18CF88001D512F /* AppDelegate.swift */; };
 		117B9ADD1B18CF88001D512F /* BudgetApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 117B9ADB1B18CF88001D512F /* BudgetApp.xcdatamodeld */; };
 		117B9ADF1B18CF88001D512F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9ADE1B18CF88001D512F /* ViewController.swift */; };
@@ -14,6 +18,18 @@
 		117B9AE41B18CF88001D512F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117B9AE31B18CF88001D512F /* Images.xcassets */; };
 		117B9AE71B18CF88001D512F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117B9AE51B18CF88001D512F /* LaunchScreen.xib */; };
 		117B9AF31B18CF88001D512F /* BudgetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9AF21B18CF88001D512F /* BudgetAppTests.swift */; };
+		117B9AFE1B1B9154001D512F /* IncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9AFC1B1B9154001D512F /* IncomeTableViewCell.swift */; };
+		117B9B011B20836F001D512F /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B001B20836F001D512F /* IncomeViewController.swift */; };
+		117B9B031B2095CF001D512F /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B021B2095CF001D512F /* CoreDataHelper.swift */; };
+		117B9B091B20CF97001D512F /* AddIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B081B20CF97001D512F /* AddIncomeViewController.swift */; };
+		117B9B0B1B2219B6001D512F /* SpendingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B0A1B2219B6001D512F /* SpendingsViewController.swift */; };
+		117B9B251B2AE124001D512F /* IncomeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B241B2AE124001D512F /* IncomeCategory.swift */; };
+		117B9B271B2AE125001D512F /* SpendingCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B261B2AE125001D512F /* SpendingCategory.swift */; };
+		117B9B291B2AE125001D512F /* Spending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B281B2AE125001D512F /* Spending.swift */; };
+		117B9B2B1B2AE125001D512F /* InvestmentIncome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B2A1B2AE125001D512F /* InvestmentIncome.swift */; };
+		117B9B2D1B2AE125001D512F /* MonthRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B2C1B2AE125001D512F /* MonthRest.swift */; };
+		117B9B2F1B2AE125001D512F /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B2E1B2AE125001D512F /* Income.swift */; };
+		117B9B311B2AE125001D512F /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B9B301B2AE125001D512F /* Investment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112ABC6C1B2B666300F3104C /* SpendingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpendingTableViewCell.swift; sourceTree = "<group>"; };
+		11421F0E1B2B814600DC53F3 /* AddSpendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSpendingViewController.swift; sourceTree = "<group>"; };
+		11421F101B2C48B700DC53F3 /* ICViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICViewController.swift; sourceTree = "<group>"; };
+		11421F121B2C511C00DC53F3 /* ICTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICTableViewCell.swift; sourceTree = "<group>"; };
 		117B9AD41B18CF88001D512F /* BudgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		117B9AD81B18CF88001D512F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		117B9AD91B18CF88001D512F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +58,18 @@
 		117B9AEC1B18CF88001D512F /* BudgetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		117B9AF11B18CF88001D512F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		117B9AF21B18CF88001D512F /* BudgetAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetAppTests.swift; sourceTree = "<group>"; };
+		117B9AFC1B1B9154001D512F /* IncomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeTableViewCell.swift; sourceTree = "<group>"; };
+		117B9B001B20836F001D512F /* IncomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		117B9B021B2095CF001D512F /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		117B9B081B20CF97001D512F /* AddIncomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIncomeViewController.swift; sourceTree = "<group>"; };
+		117B9B0A1B2219B6001D512F /* SpendingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpendingsViewController.swift; sourceTree = "<group>"; };
+		117B9B241B2AE124001D512F /* IncomeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeCategory.swift; sourceTree = "<group>"; };
+		117B9B261B2AE125001D512F /* SpendingCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpendingCategory.swift; sourceTree = "<group>"; };
+		117B9B281B2AE125001D512F /* Spending.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spending.swift; sourceTree = "<group>"; };
+		117B9B2A1B2AE125001D512F /* InvestmentIncome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestmentIncome.swift; sourceTree = "<group>"; };
+		117B9B2C1B2AE125001D512F /* MonthRest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthRest.swift; sourceTree = "<group>"; };
+		117B9B2E1B2AE125001D512F /* Income.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		117B9B301B2AE125001D512F /* Investment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +111,19 @@
 		117B9AD61B18CF88001D512F /* BudgetApp */ = {
 			isa = PBXGroup;
 			children = (
-				117B9AD91B18CF88001D512F /* AppDelegate.swift */,
+				117B9B211B2AE0DA001D512F /* coreData */,
 				117B9ADE1B18CF88001D512F /* ViewController.swift */,
+				117B9AD91B18CF88001D512F /* AppDelegate.swift */,
 				117B9AE01B18CF88001D512F /* Main.storyboard */,
+				11421F121B2C511C00DC53F3 /* ICTableViewCell.swift */,
+				11421F101B2C48B700DC53F3 /* ICViewController.swift */,
+				117B9B0A1B2219B6001D512F /* SpendingsViewController.swift */,
+				11421F0E1B2B814600DC53F3 /* AddSpendingViewController.swift */,
+				117B9B081B20CF97001D512F /* AddIncomeViewController.swift */,
+				117B9B001B20836F001D512F /* IncomeViewController.swift */,
+				117B9B021B2095CF001D512F /* CoreDataHelper.swift */,
+				117B9AFC1B1B9154001D512F /* IncomeTableViewCell.swift */,
+				112ABC6C1B2B666300F3104C /* SpendingTableViewCell.swift */,
 				117B9AE31B18CF88001D512F /* Images.xcassets */,
 				117B9AE51B18CF88001D512F /* LaunchScreen.xib */,
 				117B9ADB1B18CF88001D512F /* BudgetApp.xcdatamodeld */,
@@ -113,6 +155,20 @@
 				117B9AF11B18CF88001D512F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		117B9B211B2AE0DA001D512F /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				117B9B301B2AE125001D512F /* Investment.swift */,
+				117B9B2E1B2AE125001D512F /* Income.swift */,
+				117B9B2C1B2AE125001D512F /* MonthRest.swift */,
+				117B9B2A1B2AE125001D512F /* InvestmentIncome.swift */,
+				117B9B281B2AE125001D512F /* Spending.swift */,
+				117B9B261B2AE125001D512F /* SpendingCategory.swift */,
+				117B9B241B2AE124001D512F /* IncomeCategory.swift */,
+			);
+			name = coreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +215,9 @@
 		117B9ACC1B18CF88001D512F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Alexander Vorontsov";
 				TargetAttributes = {
 					117B9AD31B18CF88001D512F = {
@@ -215,8 +273,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117B9B2F1B2AE125001D512F /* Income.swift in Sources */,
+				117B9B031B2095CF001D512F /* CoreDataHelper.swift in Sources */,
+				117B9B2B1B2AE125001D512F /* InvestmentIncome.swift in Sources */,
 				117B9ADF1B18CF88001D512F /* ViewController.swift in Sources */,
+				11421F111B2C48B700DC53F3 /* ICViewController.swift in Sources */,
+				11421F131B2C511C00DC53F3 /* ICTableViewCell.swift in Sources */,
+				117B9B291B2AE125001D512F /* Spending.swift in Sources */,
+				117B9B0B1B2219B6001D512F /* SpendingsViewController.swift in Sources */,
+				117B9B271B2AE125001D512F /* SpendingCategory.swift in Sources */,
+				117B9B311B2AE125001D512F /* Investment.swift in Sources */,
+				117B9B011B20836F001D512F /* IncomeViewController.swift in Sources */,
+				11421F0F1B2B814600DC53F3 /* AddSpendingViewController.swift in Sources */,
+				112ABC6D1B2B666300F3104C /* SpendingTableViewCell.swift in Sources */,
 				117B9ADD1B18CF88001D512F /* BudgetApp.xcdatamodeld in Sources */,
+				117B9B251B2AE124001D512F /* IncomeCategory.swift in Sources */,
+				117B9AFE1B1B9154001D512F /* IncomeTableViewCell.swift in Sources */,
+				117B9B2D1B2AE125001D512F /* MonthRest.swift in Sources */,
+				117B9B091B20CF97001D512F /* AddIncomeViewController.swift in Sources */,
 				117B9ADA1B18CF88001D512F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +354,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -344,9 +419,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BudgetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -354,8 +432,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BudgetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -374,6 +454,7 @@
 				);
 				INFOPLIST_FILE = BudgetAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudgetApp.app/BudgetApp";
 			};
@@ -389,6 +470,7 @@
 				);
 				INFOPLIST_FILE = BudgetAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudgetApp.app/BudgetApp";
 			};
@@ -413,6 +495,7 @@
 				117B9AF81B18CF88001D512F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117B9AF91B18CF88001D512F /* Build configuration list for PBXNativeTarget "BudgetAppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +504,7 @@
 				117B9AFB1B18CF88001D512F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

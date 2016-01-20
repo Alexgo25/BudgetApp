@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Income" representedClassName="Income" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="incomeID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="incomeCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IncomeCategory" inverseName="toIncome" inverseEntity="IncomeCategory" syncable="YES"/>
+    </entity>
+    <entity name="IncomeCategory" representedClassName="IncomeCategory" syncable="YES">
+        <attribute name="incomeCategoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="incomeCategoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toIncome" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Income" inverseName="incomeCategory" inverseEntity="Income" syncable="YES"/>
+    </entity>
+    <entity name="Investment" representedClassName="Investment" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="investingDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="investmentID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="investmentIncome" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InvestmentIncome" inverseName="investment" inverseEntity="InvestmentIncome" syncable="YES"/>
+    </entity>
+    <entity name="InvestmentIncome" representedClassName="InvestmentIncome" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="invincomeID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="investment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Investment" inverseName="investmentIncome" inverseEntity="Investment" syncable="YES"/>
+    </entity>
+    <entity name="MonthRest" representedClassName="MonthRest" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="monthRestID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Spending" representedClassName="Spending" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="spendingID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="spendingCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SpendingCategory" inverseName="toSpending" inverseEntity="SpendingCategory" syncable="YES"/>
+    </entity>
+    <entity name="SpendingCategory" representedClassName="SpendingCategory" syncable="YES">
+        <attribute name="spendingCategoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="spendingCategoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toSpending" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Spending" inverseName="spendingCategory" inverseEntity="Spending" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Income" positionX="-225" positionY="-378" width="128" height="103"/>
+        <element name="Spending" positionX="-216" positionY="-612" width="128" height="103"/>
+        <element name="Investment" positionX="214" positionY="-603" width="128" height="103"/>
+        <element name="SpendingCategory" positionX="9" positionY="-612" width="128" height="88"/>
+        <element name="IncomeCategory" positionX="-20" positionY="-207" width="128" height="88"/>
+        <element name="InvestmentIncome" positionX="232" positionY="-414" width="128" height="103"/>
+        <element name="MonthRest" positionX="34" positionY="-441" width="128" height="73"/>
+    </elements>
 </model>
